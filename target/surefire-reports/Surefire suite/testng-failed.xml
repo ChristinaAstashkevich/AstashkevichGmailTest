@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test">
+    <classes>
+      <class name="AccountActionsTest"/>
+      <class name="MailActionsVerifyTest"/>
+    </classes>
+  </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="AccountActionsTest">
+        <methods>
+          <include name="logInTest" invocation-numbers="0 1 2"/>
+          <include name="logOutTest" invocation-numbers="2"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- AccountActionsTest -->
+      <class name="MailActionsVerifyTest">
+        <methods>
+          <include name="sentMailAppearsInSentFolder"/>
+          <include name="sendMailAbilityCheck"/>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- MailActionsVerifyTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
