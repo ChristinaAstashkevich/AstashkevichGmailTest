@@ -1,0 +1,50 @@
+{
+  "uid" : "1242c42b53586389",
+  "name" : "logOutTest[seleniumtests10,060788avavav]",
+  "title" : "Log out test [seleniumtests10,060788avavav]",
+  "time" : {
+    "start" : 1479728081094,
+    "stop" : 1479728087341,
+    "duration" : 6247
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : {
+    "value" : "GM-2 Logout from gmail",
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "8b60f01cadf4f658",
+    "name" : "Surefire suite : Surefire test",
+    "title" : "Surefire suite : Surefire test"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "BEDNYAKOVA7"
+  }, {
+    "name" : "thread",
+    "value" : "7712@BEDNYAKOVA7.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "suite-title",
+    "value" : "Surefire suite : Surefire test"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

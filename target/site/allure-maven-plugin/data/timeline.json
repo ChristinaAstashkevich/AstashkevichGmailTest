@@ -1,0 +1,130 @@
+{
+  "hosts" : [ {
+    "title" : "BEDNYAKOVA7",
+    "threads" : [ {
+      "title" : "7712@BEDNYAKOVA7.main(1)",
+      "testCases" : [ {
+        "uid" : "1e311cd935e877c0",
+        "name" : "logInTest[seleniumtests10,060788avavav]",
+        "title" : "Log in test [seleniumtests10,060788avavav]",
+        "time" : {
+          "start" : 1479728037697,
+          "stop" : 1479728038943,
+          "duration" : 1246
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "61c2d64abc3d8847",
+        "name" : "logInTest[seleniumtests30,060788avavav]",
+        "title" : "Log in test [seleniumtests30,060788avavav]",
+        "time" : {
+          "start" : 1479728052278,
+          "stop" : 1479728053927,
+          "duration" : 1649
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "2f2ee37915ba8764",
+        "name" : "logInTest[seleniumtests40,060788avavav]",
+        "title" : "Log in test [seleniumtests40,060788avavav]",
+        "time" : {
+          "start" : 1479728069314,
+          "stop" : 1479728070320,
+          "duration" : 1006
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "1242c42b53586389",
+        "name" : "logOutTest[seleniumtests10,060788avavav]",
+        "title" : "Log out test [seleniumtests10,060788avavav]",
+        "time" : {
+          "start" : 1479728081094,
+          "stop" : 1479728087341,
+          "duration" : 6247
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "44892e662c43b2fd",
+        "name" : "logOutTest[seleniumtests30,060788avavav]",
+        "title" : "Log out test [seleniumtests30,060788avavav]",
+        "time" : {
+          "start" : 1479728098790,
+          "stop" : 1479728108285,
+          "duration" : 9495
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "81c1c09c22b65d07",
+        "name" : "logOutTest[seleniumtests40,060788avavav]",
+        "title" : "Log out test [seleniumtests40,060788avavav]",
+        "time" : {
+          "start" : 1479728119744,
+          "stop" : 1479728131971,
+          "duration" : 12227
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "728296cbb7142024",
+        "name" : "deletedMailIsListedInTrash",
+        "title" : "Deleted mail is listed in trash",
+        "time" : {
+          "start" : 1479728143472,
+          "stop" : 1479728161930,
+          "duration" : 18458
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f70c897c840acb1b",
+        "name" : "sendMailAbilityCheck",
+        "title" : "Send mail ability check",
+        "time" : {
+          "start" : 1479728179805,
+          "stop" : 1479728194180,
+          "duration" : 14375
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "1f089062f15c151a",
+        "name" : "teardown",
+        "title" : "Teardown",
+        "time" : {
+          "start" : 1479728194191,
+          "stop" : 1479728194192,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "74c2d38735ba5311",
+        "name" : "setUp",
+        "title" : "Set up",
+        "time" : {
+          "start" : 1479728194194,
+          "stop" : 1479728194196,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      }, {
+        "uid" : "9ef03c5a805bf96b",
+        "name" : "sentMailAppearsInSentFolder",
+        "title" : "Sent mail appears in sent folder",
+        "time" : {
+          "start" : 1479728194196,
+          "stop" : 1479728194197,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "CANCELED"
+      } ]
+    } ]
+  } ]
+}
